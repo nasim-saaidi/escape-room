@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'VT323';
+    font-size: 10px;
+}
+
+.CPU-dialogue {
+    margin: auto;
+    padding: 5px;
+    margin-top: 50px;
+    background-color: #000000; 
+    color: lime;
+    display:block; 
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid white;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.inventory{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #000000; 
+    color: lime;
+    display:block; 
+    width: 150px;
+    height: 130px;
+    border: 2px solid white;
+    float:right;
+}
+
+.books{
+    margin: auto;
+    padding: 5px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #000000; 
+    color: white;
+    display:block; 
+    width: 60vw;
+    height: 530px;
+    display: none;
+}
+
+.book-cover{
+    border: 2px solid white;
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+.booktext-one{
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.booktext-two{
+    margin-top: 70px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+td{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+table{
+    width: 150px;
+    height: 100px;
+}
+
+.inventory .white{
+    color: white;
+    margin-top: 10px;
+}
+
+.summaryText {
+    color: white;
+}
+
+.choice {
+    color: dodgerblue;
+}
+
+.choice:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.choice:hover::before{
+    content: "> "
+}
+
+.input{
+    background-color: #171717;
+    color: white;
+    font-family: 'VT323';
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    width: 60vw;
+    display: block;
+}
+
+.input-2{
+    background-color: #171717;
+    color: white;
+    font-family: 'VT323';
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    width: 60vw;
+    display: block;
+}
+
+.bad-ending {
+    font-size: 100px;
+    color: red;
+    text-align: center;
+    display: none;
+}
+
+.back{
+    color: orange;
+    display: none;
+}
+
+.back:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.back2{
+    color: orange;
+    display: none;
+}
+
+.back2:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.back3{
+    color: orange;
+    display: none;
+}
+
+.back3:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.key{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.book-item{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.good-ending {
+    font-size: 100px;
+    color: lime;
+    text-align: center;
+    display: none;   
+}
